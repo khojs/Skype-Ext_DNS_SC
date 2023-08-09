@@ -64,7 +64,7 @@ $objForm.Controls.Add($DomainLabel)
 $DomainTextBox = new-object System.Windows.Forms.textbox
 $DomainTextBox.location = new-object system.drawing.size(90,20)
 $DomainTextBox.size= new-object system.drawing.size(150,15)
-$DomainTextBox.text = "sc.com"
+$DomainTextBox.text = "bosch.com"
 $DomainTextBox.TabIndex = 1
 $DomainTextBox.add_KeyUp(
 {
